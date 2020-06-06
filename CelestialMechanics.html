@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Simple page for creating canvas for celestial mechanics">
+    <meta name="author" content="Rupert Brown">
+    <title>Celestial Mechanics</title>
+
+  </head>
+
+  <body align="center">
+
+    <h1>A satellite colliding with a planet</h1>
+    <canvas class="spiralCanvas">
+        <p>If you read this text your browser doesn't support canvas.</p>
+    </canvas>
+    <p>The satellite is captured by the planet's gravity. The satellite's speed is not sufficient to allow it to escape so it is gradually dragged down to the planet's surface.</p>
+
+    <h1>A satellite escaping a planet</h1>
+    <canvas class="parabolaCanvas">
+        <p>If you read this text your browser doesn't support canvas.</p>
+    </canvas>
+    <p>Again the satellite is captured by the planet's gravity but this time it has the speed and distance to enable it to break free. The encounter can actually increase the speed of the satellite - the <em>slingshot</em> effect.
+
+    <h1>A satellite orbiting a planet</h1>
+    <canvas class="orbitCanvas">
+        <p>If you read this text your browser doesn't support canvas.</p>
+    </canvas>
+    <p>A satellite at the correct distance and speed will maintain a steady orbit around the planet.</p>
+
+    <script src="CelestialMechanics.js"></script>
+  </body>
+</html>
